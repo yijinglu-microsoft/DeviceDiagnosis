@@ -1,0 +1,99 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ChatGPTEdge.Api",
+    "version": "1.0"
+  },
+  "servers": {
+    "url": "https://localhost:7147"
+  },
+  "paths": {
+    "/DeviceResult": {
+      "get": {
+        "tags": [
+          "DeviceResult"
+        ],
+        "summary": "Retrieve details of devices",
+        "operationId": "DeviceDetails",
+        "parameters": {},
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DeviceResult"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DeviceResult": {
+        "type": "object",
+        "properties": {
+          "DeviceDetail": {
+            "type": "object",
+            "nullable": true
+          },
+          "Diagnosis": {
+            "type": "object",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeviceDetail": {
+        "type": "object",
+        "properties": {
+          "timeStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "deviceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "subscription": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Diagnosis": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "error": {
+            "type": "string",
+            "nullable": true
+          },
+          "info": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

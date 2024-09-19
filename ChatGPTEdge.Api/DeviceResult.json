@@ -1,0 +1,135 @@
+{
+  "deviceDetails": [
+    {
+      "timestamp": "",
+      "deviceId": "001",
+      "subscription": "",
+      "location": "eastus",
+      "statusCode": "200"
+    },
+    {
+      "timestamp": "",
+      "deviceId": "002",
+      "subscription": "",
+      "location": "westus",
+      "statusCode": "401"
+    },
+    {
+      "timestamp": "",
+      "deviceId": "003",
+      "subscription": "",
+      "location": "centralus",
+      "statusCode": "500"
+    },
+    {
+      "timestamp": "",
+      "deviceId": "004",
+      "subscription": "",
+      "location": "eastus",
+      "statusCode": "200"
+    },
+    {
+      "timestamp": "",
+      "deviceId": "005",
+      "subscription": "",
+      "location": "westus",
+      "statusCode": "200"
+    },
+    {
+      "timestamp": "2024-09-19 21:56:34.1130984",
+      "deviceId": "006",
+      "subscription": "",
+      "location": "eastus",
+      "statusCode": "401"
+    },
+    {
+      "timestamp": "",
+      "deviceId": "007",
+      "subscription": "",
+      "location": "westus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "008",
+      "location": "westus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "009",
+      "location": "eastus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "010",
+      "location": "westus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "011",
+      "location": "eastus",
+      "statusCode": "409"
+    },
+    {
+      "deviceId": "012",
+      "location": "westus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "013",
+      "location": "eastus",
+      "statusCode": "200"
+    },
+    {
+      "deviceId": "014",
+      "location": "eastus",
+      "statusCode": "429"
+    }
+  ],
+  "diagnosis": [
+    {
+      "statusCode": "200",
+      "error": "",
+      "info": "Succeeded"
+    },
+    {
+      "statusCode": "401",
+      "error": "Unauthorized",
+      "info": "The authorization token cannot be validated; for example, it is expired or does not apply to the request's URI. This error code is also returned to devices as part of the TPM attestation flow."
+    },
+    {
+      "statusCode": "404",
+      "error": "Not Found",
+      "info": "The Device Provisioning Service instance, or a resource (e.g. an enrollment) does not exist."
+    },
+    {
+      "statusCode": "405",
+      "error": "Method Not Allowed",
+      "info": "The client service knows the request method, but the target service doesn't recognize this method; for example, a rest operation is missing the enrollment or registration ID parameters"
+    },
+    {
+      "statusCode": "409",
+      "error": "Conflict",
+      "info": "The request could not be completed due to a conflict with the current state of the target Device Provisioning Service instance; for example, the customer has already created the data point and is attempting to recreate the same datapoint again."
+    },
+    {
+      "statusCode": "412",
+      "error": "Precondition failed",
+      "info": "The ETag in the request does not match the ETag of the existing resource, as per RFC7232."
+    },
+    {
+      "statusCode": "415",
+      "error": "Unsupported Media Type",
+      "info": "The server refuses to accept the request because the payload format is in an unsupported format. For supported formats, see Iot Hub Device Provisioning Service REST API "
+    },
+    {
+      "statusCode": "429",
+      "error": "Too many requests",
+      "info": "Operations are being throttled by the service. For specific service limits, see https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-subscription-service-limits.md#iot-hub-device-provisioning-service-limits"
+    },
+    {
+      "statusCode": "500",
+      "error": "Internal Server Error",
+      "info": "An internal error occurred. Please reach out to support team."
+    }
+  ]
+}

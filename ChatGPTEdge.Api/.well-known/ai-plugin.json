@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "DPSDeviceDetailsPlugin",
+    "name_for_human": "DPSDeviceDetails Plugin",
+    "description_for_model": "Query about dps device details with data in last 30 mins",
+    "description_for_human": "Query about dps device details with data in last 30 mins",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://localhost:7147/DeviceResult/swagger.json"
+    },
+    "logo_url": "https://learn.microsoft.com/azure/cognitive-services/computer-vision/media/quickstarts/presentation.png",
+    "contact_email": "yijinglu@microsoft.com",
+    "legal_info_url": "http://www.example.com/legal"
+}

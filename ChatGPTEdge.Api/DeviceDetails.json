@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "",
+    "deviceId": "001",
+    "subscription": "",
+    "location": "eastus",
+    "statusCode": "200"
+  },
+  {
+    "timestamp": "",
+    "deviceId": "002",
+    "subscription": "",
+    "location": "westus",
+    "statusCode": "401"
+  },
+  {
+    "timestamp": "",
+    "deviceId": "003",
+    "subscription": "",
+    "location": "centralus",
+    "statusCode": "500"
+  },
+  {
+    "timestamp": "",
+    "deviceId": "004",
+    "subscription": "",
+    "location": "eastus",
+    "statusCode": "200"
+  },
+  {
+    "timestamp": "",
+    "deviceId": "005",
+    "subscription": "",
+    "location": "westus",
+    "statusCode": "200"
+  },
+  {
+    "timestamp": "2024-09-19 21:56:34.1130984",
+    "deviceId": "006",
+    "subscription": "",
+    "location": "eastus",
+    "statusCode": "401"
+  },
+  {
+    "timestamp": "",
+    "deviceId": "007",
+    "subscription": "",
+    "location": "westus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "008",
+    "location": "westus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "009",
+    "location": "eastus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "010",
+    "location": "westus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "011",
+    "location": "eastus",
+    "statusCode": "409"
+  },
+  {
+    "deviceId": "012",
+    "location": "westus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "013",
+    "location": "eastus",
+    "statusCode": "200"
+  },
+  {
+    "deviceId": "014",
+    "location": "eastus",
+    "statusCode": "429"
+  }
+]
