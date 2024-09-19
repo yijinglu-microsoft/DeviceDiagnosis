@@ -5,4 +5,5 @@ Step 2: Follow steps https://github.com/microsoft/chat-copilot?tab=readme-ov-fil
 Step 3: Add Plugin in http://localhost:3000/ website with domain https://localhost:7147/
 
 Step 4: Enable plugin and start to ask Copilot about device details and diagnosis
-![image](https://github.com/user-attachments/assets/b73f7d28-0285-43c7-9604-2393f8ac9715)
+![image](https://github.com/user-attachments/assets/2e09f2a6-ec7e-48c6-8d1b-f9a2bf3f454f)
+
