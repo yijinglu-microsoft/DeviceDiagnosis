@@ -1,135 +1,215 @@
 {
   "deviceDetails": [
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:01:34.000000",
       "deviceId": "001",
-      "subscription": "",
+      "subscription": "ae24ff83-d2ca-4fc8-9717-05dae4bba489",
       "location": "eastus",
-      "statusCode": "200"
+      "statusCode": "429", // regionwide
+      "lastSucceededTimeStamp": "2024-09-22 23:11:34.000000"
     },
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:03:03.736842",
       "deviceId": "002",
-      "subscription": "",
-      "location": "westus",
-      "statusCode": "401"
+      "subscription": "28ed294a-474a-4e83-bdad-25602f8e006d",
+      "location": "eastus",
+      "statusCode": "429", // regionwide
+      "lastSucceededTimeStamp": "2024-09-22 23:47:03.736842"
     },
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:04:33.473684",
       "deviceId": "003",
-      "subscription": "",
-      "location": "centralus",
-      "statusCode": "500"
+      "subscription": "ae24ff83-d2ca-4fc8-9717-05dae4bba489",
+      "location": "eastus",
+      "statusCode": "404", // isolated
+      "lastSucceededTimeStamp": "2024-09-22 23:19:33.473684"
     },
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:06:03.210526",
       "deviceId": "004",
-      "subscription": "",
-      "location": "eastus",
-      "statusCode": "200"
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
+      "location": "westus2",
+      "statusCode": "404", // isolated
+      "lastSucceededTimeStamp": "2024-09-22 23:58:03.210526"
     },
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:07:32.947368",
       "deviceId": "005",
-      "subscription": "",
-      "location": "westus",
-      "statusCode": "200"
+      "subscription": "28ed294a-474a-4e83-bdad-25602f8e006d",
+      "location": "eastus",
+      "statusCode": "429", // regionwide
+      "lastSucceededTimeStamp": "2024-09-23 00:01:32.947368"
     },
     {
-      "timestamp": "2024-09-19 21:56:34.1130984",
+      "timestamp": "2024-09-23 00:09:02.684210",
       "deviceId": "006",
-      "subscription": "",
-      "location": "eastus",
-      "statusCode": "401"
+      "subscription": "28ed294a-474a-4e83-bdad-25602f8e006d",
+      "location": "westus",
+      "statusCode": "200", // no error
+      "lastSucceededTimeStamp": "2024-09-22 23:12:02.684210"
     },
     {
-      "timestamp": "",
+      "timestamp": "2024-09-23 00:10:32.421052",
       "deviceId": "007",
-      "subscription": "",
+      "subscription": "ae24ff83-d2ca-4fc8-9717-05dae4bba489",
       "location": "westus",
-      "statusCode": "200"
+      "statusCode": "500", // isolated
+      "lastSucceededTimeStamp": "2024-09-22 23:27:32.421052"
     },
     {
+      "timestamp": "2024-09-23 00:12:02.157894",
       "deviceId": "008",
-      "location": "westus",
-      "statusCode": "200"
+      "subscription": "ae24ff83-d2ca-4fc8-9717-05dae4bba489",
+      "location": "200", // no error
+      "lastSucceededTimeStamp": "2024-09-22 23:11:02.157894"
     },
     {
+      "timestamp": "2024-09-23 00:13:31.894736",
       "deviceId": "009",
-      "location": "eastus",
-      "statusCode": "200"
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
+      "location": "westus2",
+      "statusCode": "500", // isolated
+      "lastSucceededTimeStamp": "2024-09-23 00:00:31.894736"
     },
     {
+      "timestamp": "2024-09-23 00:15:01.631578",
       "deviceId": "010",
-      "location": "westus",
-      "statusCode": "200"
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
+      "location": "eastus",
+      "statusCode": "429", // regionwide
+      "lastSucceededTimeStamp": "2024-09-22 23:58:01.631578"
     },
     {
+      "timestamp": "2024-09-23 00:16:31.368420",
       "deviceId": "011",
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
       "location": "eastus",
-      "statusCode": "409"
+      "statusCode": "401", // subscriptionwide
+      "lastSucceededTimeStamp": "2024-09-22 23:42:31.368420"
     },
     {
+      "timestamp": "2024-09-23 00:18:01.105262",
       "deviceId": "012",
-      "location": "westus",
-      "statusCode": "200"
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
+      "location": "eastus",
+      "statusCode": "401", // subscriptionwide
+      "lastSucceededTimeStamp": "2024-09-22 23:55:01.105262"
     },
     {
+      "timestamp": "2024-09-23 00:19:30.842104",
       "deviceId": "013",
-      "location": "eastus",
-      "statusCode": "200"
+      "subscription": "28ed294a-474a-4e83-bdad-25602f8e006d",
+      "location": "westus",
+      "statusCode": "500", // isolated
+      "lastSucceededTimeStamp": "2024-09-22 23:26:30.842104"
     },
     {
+      "timestamp": "2024-09-23 00:21:00.578946",
       "deviceId": "014",
-      "location": "eastus",
-      "statusCode": "429"
+      "subscription": "53cd450b-b108-4e6e-b048-f63c1dcc8c8f",
+      "location": "westus",
+      "statusCode": "500", // isolated
+      "lastSucceededTimeStamp": "2024-09-23 00:20:00.578946"
+    },
+    {
+      "timestamp": "2024-09-23 00:22:30.315788",
+      "deviceId": "015",
+      "subscription": "28ed294a-474a-4e83-bdad-25602f8e006d",
+      "location": "westus2",
+      "statusCode": "200", // no error
+      "lastSucceededTimeStamp": "2024-09-23 00:09:30.315788"
     }
   ],
   "diagnosis": [
     {
       "statusCode": "200",
       "error": "",
-      "info": "Succeeded"
+      "info": "Succeeded",
+      "smartRules": {
+        "isolated": "No issues detected. The device is functioning normally.",
+        "regionWide": "All devices in this region are operating without errors.",
+        "subscriptionWide": "All devices in this subscription are functioning normally."
+      }
     },
     {
       "statusCode": "401",
       "error": "Unauthorized",
-      "info": "The authorization token cannot be validated; for example, it is expired or does not apply to the request's URI. This error code is also returned to devices as part of the TPM attestation flow."
+      "info": "The authorization token cannot be validated; for example, it is expired or does not apply to the request's URI. This error code is also returned to devices as part of the TPM attestation flow.",
+      "smartRules": {
+        "isolated": "If only one device is unauthorized, check its token configuration and ensure the token has not expired or is properly scoped.",
+        "regionWide": "If several devices in the same region are unauthorized, investigate region-wide token misconfigurations or policy changes.",
+        "subscriptionWide": "If all devices in the subscription are unauthorized, a subscription-wide token misconfiguration or authentication issue could be the cause."
+      }
     },
     {
       "statusCode": "404",
       "error": "Not Found",
-      "info": "The Device Provisioning Service instance, or a resource (e.g. an enrollment) does not exist."
+      "info": "The Device Provisioning Service instance, or a resource (e.g., an enrollment) does not exist.",
+      "smartRules": {
+        "isolated": "Ensure the resource or instance being accessed exists and the device is using the correct parameters.",
+        "regionWide": "If multiple devices are unable to find resources, verify that the service instances or resources in this region are correctly provisioned.",
+        "subscriptionWide": "If all devices under this subscription encounter 404 errors, there could be a larger issue with missing resources or incorrect configuration across the subscription."
+      }
     },
     {
       "statusCode": "405",
       "error": "Method Not Allowed",
-      "info": "The client service knows the request method, but the target service doesn't recognize this method; for example, a rest operation is missing the enrollment or registration ID parameters"
+      "info": "The client service knows the request method, but the target service doesn't recognize this method; for example, a REST operation is missing the enrollment or registration ID parameters.",
+      "smartRules": {
+        "isolated": "Check the request method and ensure that all necessary parameters (e.g., enrollment or registration ID) are provided.",
+        "regionWide": "If multiple devices report this issue, ensure that the REST API being used is properly configured and recognized by the service in this region.",
+        "subscriptionWide": "If the error persists across the subscription, review the API configurations and methods being used to communicate with the service."
+      }
     },
     {
       "statusCode": "409",
       "error": "Conflict",
-      "info": "The request could not be completed due to a conflict with the current state of the target Device Provisioning Service instance; for example, the customer has already created the data point and is attempting to recreate the same datapoint again."
+      "info": "The request could not be completed due to a conflict with the current state of the target Device Provisioning Service instance; for example, the customer has already created the data point and is attempting to recreate the same data point again.",
+      "smartRules": {
+        "isolated": "If the issue is isolated to one device, check if the resource is being duplicated and avoid sending duplicate requests.",
+        "regionWide": "If conflicts occur across devices in a region, ensure that resources are not being concurrently modified in a way that causes conflicts.",
+        "subscriptionWide": "If all devices are encountering conflicts, a systemic issue may exist in how the subscription handles concurrent operations or resource management."
+      }
     },
     {
       "statusCode": "412",
-      "error": "Precondition failed",
-      "info": "The ETag in the request does not match the ETag of the existing resource, as per RFC7232."
+      "error": "Precondition Failed",
+      "info": "The ETag in the request does not match the ETag of the existing resource, as per RFC7232.",
+      "smartRules": {
+        "isolated": "For isolated cases, ensure that the device is using the correct ETag value for the resource.",
+        "regionWide": "If multiple devices encounter this issue, verify that all devices are referencing the correct and updated ETag values.",
+        "subscriptionWide": "If this occurs across all devices, review the overall resource version control and ETag management across the subscription."
+      }
     },
     {
       "statusCode": "415",
       "error": "Unsupported Media Type",
-      "info": "The server refuses to accept the request because the payload format is in an unsupported format. For supported formats, see Iot Hub Device Provisioning Service REST API "
+      "info": "The server refuses to accept the request because the payload format is in an unsupported format. For supported formats, see IoT Hub Device Provisioning Service REST API.",
+      "smartRules": {
+        "isolated": "Check the payload format for the specific device to ensure it matches the supported formats.",
+        "regionWide": "If multiple devices are sending unsupported formats, ensure that all devices in the region are following the correct payload formatting rules.",
+        "subscriptionWide": "If this is a subscription-wide issue, review the default payload configuration across all devices to ensure they are aligned with supported formats."
+      }
     },
     {
       "statusCode": "429",
-      "error": "Too many requests",
-      "info": "Operations are being throttled by the service. For specific service limits, see https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-subscription-service-limits.md#iot-hub-device-provisioning-service-limits"
+      "error": "Too Many Requests",
+      "info": "Operations are being throttled by the service. For specific service limits, see https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/azure-subscription-service-limits.md#iot-hub-device-provisioning-service-limits.",
+      "smartRules": {
+        "isolated": "For a single device, reduce the request frequency or implement a backoff strategy to prevent throttling.",
+        "regionWide": "If multiple devices in the same region are being throttled, review the overall request patterns and optimize the region’s rate limits.",
+        "subscriptionWide": "If all devices in the subscription are being throttled, you may need to increase the global rate limits for the subscription or optimize the system-wide request patterns."
+      }
     },
     {
       "statusCode": "500",
       "error": "Internal Server Error",
-      "info": "An internal error occurred. Please reach out to support team."
+      "info": "An internal error occurred. Please reach out to the support team.",
+      "smartRules": {
+        "isolated": "For isolated cases, this may be a temporary server issue. Try retrying the request or contacting support if the issue persists.",
+        "regionWide": "If multiple devices report server errors in the same region, investigate potential issues with the backend infrastructure affecting the region.",
+        "subscriptionWide": "If this is a subscription-wide issue, there may be a significant backend system failure. Reach out to support for further assistance."
+      }
     }
   ]
 }

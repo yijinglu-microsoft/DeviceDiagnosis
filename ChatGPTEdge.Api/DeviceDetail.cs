@@ -7,5 +7,6 @@
         public string subscription { get; set; }
         public string location { get; set; }
         public string statusCode { get; set; }
+        public string lastSucceededTimeStamp { get; set; }
     }
 }

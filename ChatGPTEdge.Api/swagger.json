@@ -72,6 +72,10 @@
           "statusCode": {
             "type": "string",
             "nullable": true
+          },
+          "lastSucceededTimeStamp": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -88,6 +92,28 @@
             "nullable": true
           },
           "info": {
+            "type": "string",
+            "nullable": true
+          },
+          "smartRules": {
+            "type": "object",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SmartRule": {
+        "type": "object",
+        "properties": {
+          "isolated": {
+            "type": "string",
+            "nullable": true
+          },
+          "regionWide": {
+            "type": "string",
+            "nullable": true
+          },
+          "subscriptionWide": {
             "type": "string",
             "nullable": true
           }
